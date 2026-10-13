@@ -41,7 +41,7 @@ transform = transforms.Compose([
 ])
 
 # ===================== 4. 读取图片、反转+二值化 =====================
-img_path = r"E:\VS Code Projects\pytorch\num6.png"
+img_path = r"E:\VS Code Projects\pytorch\num5.png"
 img = Image.open(img_path)
 img_tensor = transform(img).unsqueeze(0)
 img_tensor = 1.0 - img_tensor
